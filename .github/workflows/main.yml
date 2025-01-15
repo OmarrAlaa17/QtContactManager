@@ -27,7 +27,7 @@ jobs:
       
       - name: Run Squish tests
         run: |
-          "C:\\Users\\omare\\Squish for Qt 8.1.0\\bin\\squishrunner.exe" --testsuite tests/suite_Test --aut testApp --reportgen xml,./results.xml
+          "C:\\Users\\omare\\Squish for Qt 8.1.0\\bin\\squishrunner.exe" --testsuite tests/suite_Test --reportgen xml,./results.xml
         shell: cmd
         
         
