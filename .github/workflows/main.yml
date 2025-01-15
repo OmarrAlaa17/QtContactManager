@@ -30,11 +30,6 @@ jobs:
           "C:\\Users\\omare\\Squish for Qt 8.1.0\\bin\\squishrunner.exe" --testsuite tests/suite_Test --reportgen xml,./results.xml
         shell: cmd
         
-        
-      - name: Stop Squish server
-        run: |
-          taskkill /IM squishserver.exe /F
-        shell: cmd
 
       - name: Upload test results
         uses: actions/upload-artifact@v3
