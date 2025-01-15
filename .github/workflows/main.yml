@@ -24,10 +24,6 @@ jobs:
         run: |
           start /B "C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe"
         shell: cmd
-
-      - name: Register Application Under Test
-        run: |
-          "C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe" --config addAUT testApp src/release/qtPhooneBook.exe
       
       - name: Run Squish tests
         run: |
