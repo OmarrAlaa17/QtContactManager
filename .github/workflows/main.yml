@@ -23,6 +23,7 @@ jobs:
         run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned |
           cd tests |
           "C:\Users\omare\Squish for Qt 8.1.0\bin\squishrunner.exe" --testsuite suite_Test  --reportgen xml,./results.xml
+        shell: cmd
         
         
       - name: Stop Squish server
