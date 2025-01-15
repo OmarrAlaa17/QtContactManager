@@ -8,10 +8,10 @@ This project follows a well-organized structure for clarity and maintainability:
 
 - **/src** (Source Code): Contains all the source code files for my Qt application.
 - **/bin** (Binaries): Stores the compiled executable file (e.g., `qtPhooneBook.exe`) after building the project with all the required files for running.
-- **/docs** (Documentation): Houses any documentation related to the project, App Specifications and Test plan.
+- **/docs** (Documentation): Houses any documentation related to the project, App Specifications and Test plan documents are written using mark down to be adjusted and structured easily.
 - **/tests** (Test Cases): Holds all the Squish test suite folders including all test case files.
 
-## Easy Application Execution
+# Easy Application Execution
 
 If you simply want to run the application without delving into development details, follow these steps:
 

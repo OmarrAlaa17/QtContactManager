@@ -11,21 +11,16 @@ Developing a simple contact manager application, that contains different functio
     * System validates input data.
     * New contact is added to the contact list.
 
-* **Edit Contact:**
-    * User selects a contact from the list.
-    * User can modify contact information.
-    * System updates the contact information. 
-
 * **Delete Contact:**
     * User can delete select and delete single/multiple contacts.
     * User can delete all contact in the contact list.
 
+* **View All Contacts**
+    * Adjustable and responsive table layout.
+    * All contacts can be easily viewed with nothing hidden.
+
 * **Add Contact to Favorites:**
     * User can add a single/multiple users to favorites
-
-* **Search Through Contacts:**
-    * User can search through contact details
-    * User can filter by favorites
 
 ## 3. User Interface
 
@@ -33,14 +28,8 @@ Developing a simple contact manager application, that contains different functio
     * A form for contact details (name,phone and email)
     * Add Button (To add contact to contact list)
     * Contacts List (Containing all contacts)
-    * Search bar
-    * Search button
-    * Reset search button
     * Remove button (To remove selected contacts)
     * Remove all button (To remove all contact)
-
-
-        ![My Image](MainWindow_ScreenShot.jpg)
 
 ## 4. Use Cases
 
@@ -58,3 +47,8 @@ Developing a simple contact manager application, that contains different functio
 * **UC2: Remove All Contacts**
     1. User clicks "Remove All"
     2. System empty out the contacts list
+
+* **UC3: Verify All Contact Information**
+    1. User can view all table contacts
+    2. Adjusting window as preferred 
+    3. Making sure that all contacts data are valid
