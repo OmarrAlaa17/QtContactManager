@@ -39,7 +39,8 @@ Developing a simple contact manager application, that contains different functio
     * Remove button (To remove selected contacts)
     * Remove all button (To remove all contact)
 
-![My Image](MainWindow_ScreenShot.jpg)
+
+        ![My Image](MainWindow_ScreenShot.jpg)
 
 ## 4. Use Cases
 
