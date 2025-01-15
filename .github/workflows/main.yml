@@ -20,11 +20,6 @@ jobs:
           mingw32-make
         shell: cmd
 
-      - name: Config app
-        run: |
-          start /B "C:\Users\omare\Squish\ for\ Qt\ 8.1.0\bin\squishserver.exe --config addAUT qtPhooneBook src/release/qtPhooneBook.exe"
-        shell: cmd
-
       - name: Start Squish server
         run: |
           start /B "C:\Users\omare\Squish\ for\ Qt\ 8.1.0\bin\squishserver.exe"
