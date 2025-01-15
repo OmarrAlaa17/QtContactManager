@@ -1,5 +1,5 @@
 import re
-import os
+import sys
 
 with open('results.xml', 'r') as f:
     f.readline()
@@ -16,7 +16,7 @@ with open('results.xml', 'r') as f:
         if tests == passes:
             print("The number of tests is equal to the number of passes.")
         else:
-            os.error("The number of tests is not equal to the number of passes.")
+            sys.exit(1)
             print(f"The number of tests ({tests}) is not equal to the number of passes ({passes}).")
     else:
         print("Could not find the required attributes in the string.")
