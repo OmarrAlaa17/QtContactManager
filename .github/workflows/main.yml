@@ -1,0 +1,33 @@
+name: Run Squish Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  squish-tests:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Start Squish server
+        run: |
+          start /B C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe
+        shell: cmd
+
+      - name: Run Squish tests
+        run: cd tests && "C:\Users\omare\Squish for Qt 8.1.0\bin\squishrunner.exe" --testsuite suite_Test  --reportgen xml,./results.xml
+        
+      - name: Stop Squish server
+        run: |
+          taskkill /IM squishserver.exe /F
+        shell: cmd
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v3
+        with:
+          name: squish-test-results
+          path: results.xml
