@@ -60,7 +60,7 @@ If you simply want to run the application without delving into development detai
 -   Run the squish test suite command
     ```bash
         cd ../tests
-        <path/to/squish/bin/squishrunner.exe> --testsuite suiteTest.sui  --reportgen xml,./results.xml
+        <path/to/squish/bin/squishrunner.exe> --testsuite suite_Test  --reportgen xml,./results.xml
         #Results will be stored in tests/results
     ```
 
