@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+    <Description/>
+    <Verification object="phoneBookTable_0_1_QModelIndex" property="text" type="char" valueType="Value">
+        <![CDATA[Omar]]>
+        <base64EncodedValue>T21hcg==</base64EncodedValue>
+    </Verification>
+    <Verification object="phoneBookTable_0_1_QModelIndex" property="column" type="int" valueType="Value">
+        <![CDATA[1]]>
+        <base64EncodedValue>MQ==</base64EncodedValue>
+    </Verification>
+</VerificationPoint>
