@@ -36,3 +36,6 @@ jobs:
         with:
           name: squish-test-results
           path: results.xml
+
+      - name: Run Check for failure
+        run: python .\checkResults.py
