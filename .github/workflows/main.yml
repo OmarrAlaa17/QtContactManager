@@ -22,7 +22,7 @@ jobs:
 
       - name: Start Squish server
         run: |
-          start /B "C:\Users\omare\Squish for Qt\ 8.1.0\bin\squishserver.exe"
+          start /B "C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe"
         shell: cmd
 
       - name: Run Squish tests
