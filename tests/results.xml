@@ -1,0 +1,47 @@
+<SquishReport version="1.2">
+    <summary warnings="0" unexpected_passes="0" fatals="14" errors="0" expected_fails="0" tests="0" passes="0" fails="0" testcases="14"/>
+    <testresult result="START" message="Start 'suite_Test'" time="2025-01-15T21:43:39">Test 'suite_Test' started</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_UI-01_layoutCheck'" errors="0" expected_fails="0" time="2025-01-15T21:43:39" passes="0" info="tst_UI-01_layoutCheck" fails="0">Test 'tst_UI-01_layoutCheck' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:41">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:41">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_UI-02_horizontalResizeCheck'" errors="0" expected_fails="0" time="2025-01-15T21:43:41" passes="0" info="tst_UI-02_horizontalResizeCheck" fails="0">Test 'tst_UI-02_horizontalResizeCheck' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:43">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:43">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_verticalResizeCheck'" errors="0" expected_fails="0" time="2025-01-15T21:43:43" passes="0" info="tst_verticalResizeCheck" fails="0">Test 'tst_verticalResizeCheck' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:45">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:45">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_scrollableTable'" errors="0" expected_fails="0" time="2025-01-15T21:43:45" passes="0" info="tst_scrollableTable" fails="0">Test 'tst_scrollableTable' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:47">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:47">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_ValidData'" errors="0" expected_fails="0" time="2025-01-15T21:43:47" passes="0" info="tst_ValidData" fails="0">Test 'tst_ValidData' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:49">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:49">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_EmptyRequired'" errors="0" expected_fails="0" time="2025-01-15T21:43:49" passes="0" info="tst_EmptyRequired" fails="0">Test 'tst_EmptyRequired' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:51">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:51">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_ExistingInfo'" errors="0" expected_fails="0" time="2025-01-15T21:43:51" passes="0" info="tst_ExistingInfo" fails="0">Test 'tst_ExistingInfo' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:53">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:53">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_ValidRequiredData'" errors="0" expected_fails="0" time="2025-01-15T21:43:53" passes="0" info="tst_ValidRequiredData" fails="0">Test 'tst_ValidRequiredData' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:55">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:55">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_RemoveContact'" errors="0" expected_fails="0" time="2025-01-15T21:43:55" passes="0" info="tst_RemoveContact" fails="0">Test 'tst_RemoveContact' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:57">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:57">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_RemoveMultipleContacts'" errors="0" expected_fails="0" time="2025-01-15T21:43:57" passes="0" info="tst_RemoveMultipleContacts" fails="0">Test 'tst_RemoveMultipleContacts' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:43:59">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:43:59">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_RemoveAll'" errors="0" expected_fails="0" time="2025-01-15T21:43:59" passes="0" info="tst_RemoveAll" fails="0">Test 'tst_RemoveAll' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:44:01">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:44:01">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_InvalidPhone'" errors="0" expected_fails="0" time="2025-01-15T21:44:01" passes="0" info="tst_InvalidPhone" fails="0">Test 'tst_InvalidPhone' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:44:03">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:44:03">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_InvalidEmail'" errors="0" expected_fails="0" time="2025-01-15T21:44:03" passes="0" info="tst_InvalidEmail" fails="0">Test 'tst_InvalidEmail' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:44:05">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:44:05">Giving up after error</testresult>
+    <testresult warnings="0" result="START_TEST_CASE" unexpected_passes="0" fatals="1" message="Start 'tst_FieldsExceedsLimit'" errors="0" expected_fails="0" time="2025-01-15T21:44:05" passes="0" info="tst_FieldsExceedsLimit" fails="0">Test 'tst_FieldsExceedsLimit' started</testresult>
+    <testresult result="FATAL" message="Connecting to Squish server" time="2025-01-15T21:44:07">Could not connect to Squish server at host 127.0.0.1, port 4322: Connection refused</testresult>
+    <testresult result="END_TEST_CASE" message="End of test" time="2025-01-15T21:44:07">Giving up after error</testresult>
+    <testresult result="END" message="End 'suite_Test'" time="2025-01-15T21:44:07">End of test 'suite_Test'</testresult>
+</SquishReport>
