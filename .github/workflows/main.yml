@@ -25,10 +25,15 @@ jobs:
           start /B "C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe"
         shell: cmd
 
+      - name: Register Application Under Test
+        run: |
+          "C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe" --config addAUT testApp src/release/qtPhooneBook.exe
+      
       - name: Run Squish tests
         run: |
-          "C:\\Users\\omare\\Squish for Qt 8.1.0\\bin\\squishrunner.exe" --testsuite tests/suite_Test --aut qtPhooneBook --reportgen xml,./results.xml
+          "C:\\Users\\omare\\Squish for Qt 8.1.0\\bin\\squishrunner.exe" --testsuite tests/suite_Test --aut testApp --reportgen xml,./results.xml
         shell: cmd
+        
         
       - name: Stop Squish server
         run: |
