@@ -18,8 +18,11 @@ jobs:
           start /B "C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe"
         shell: cmd
 
+      
       - name: Run Squish tests
-        run: cd tests && "C:\Users\omare\Squish for Qt 8.1.0\bin\squishrunner.exe" --testsuite suite_Test  --reportgen xml,./results.xml
+        run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned |
+          cd tests && "C:\Users\omare\Squish for Qt 8.1.0\bin\squishrunner.exe" --testsuite suite_Test  --reportgen xml,./results.xml
+        
         
       - name: Stop Squish server
         run: |
