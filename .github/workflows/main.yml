@@ -27,12 +27,12 @@ jobs:
 
       - name: Register Application Under Test
         run: |
-          "C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe" --config addAUT testApp src/release/qtPhooneBook.exe
+          "C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe" --config addAUT qtPhooneBook src/release
         shell: cmd
         
       - name: Run Squish tests
         run: |
-          "C:\\Users\\omare\\Squish for Qt 8.1.0\\bin\\squishrunner.exe" --testsuite tests/suite_Test --aut testApp --reportgen xml,./results.xml
+          "C:\\Users\\omare\\Squish for Qt 8.1.0\\bin\\squishrunner.exe" --testsuite tests/suite_Test --aut qtPhooneBook --reportgen xml,./results.xml
         shell: cmd
         
         
