@@ -1,0 +1,25 @@
+name: Build and Test Qt Application
+
+on:
+  push:
+    branches: [ "main" ] # Run tests on pushes to the "main" branch
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Qt environment
+      uses: qtframework/setup-qt@v1
+      with:
+        qt-version: 6.8.1
+        # components: ['widgets', 'gui', 'core']
+
+    - name: Build the application
+      run: |
+        cd src
+        mkdir -p build
+        cd build
+        qmake ../qtPhooneBook.pro -r -config release
+        mingw32-make -j4
