@@ -15,8 +15,8 @@ jobs:
 
       - name: Build App
         run: |
-          cd src |
-          qmake qtPhoneBook.pro |
+          cd ./src
+          qmake qtPhoneBook.pro
           mingw32-make
         shell: cmd
 
