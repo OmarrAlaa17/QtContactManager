@@ -39,14 +39,14 @@ If you simply want to run the application without delving into development detai
 -   Navigate to **/src** and run build commands
     ```bash
         cd src
-        qmake qtPhoneBook.pro
+        qmake qtPhooneBook.pro
         mingw32-make
     ```
 
 -   Navigate to **/src/release** and run the application
     ```bash
         cd release
-        qtPhoneBook.exe
+       qtPhooneBook.exe
     ```
 
 **Steps to run tests autonomously:**

@@ -19,7 +19,12 @@ def main():
     test.compare(3, contactsTable.rowCount, "Contacts added successfully")
     
     clickButton(waitForObject(names.mainWindow_removeAllBtn_QPushButton))
-    clickButton(waitForObject(names.confirm_Remove_All_Yes_QPushButton))
     
+    clickButton(waitForObject(names.confirm_Remove_All_No_QPushButton))
+    test.compare(3, contactsTable.rowCount, "Request to remove all denied")
+    
+    clickButton(waitForObject(names.mainWindow_removeAllBtn_QPushButton))
+    
+    clickButton(waitForObject(names.confirm_Remove_All_Yes_QPushButton))
     test.compare(0, contactsTable.rowCount, "All Contacts are removed"
 )

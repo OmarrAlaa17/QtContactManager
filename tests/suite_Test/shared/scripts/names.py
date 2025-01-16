@@ -31,3 +31,4 @@ info_QMessageBox = {"type": "QMessageBox", "unnamed": 1, "visible": 1, "windowTi
 info_OK_QPushButton = {"text": "OK", "type": "QPushButton", "unnamed": 1, "visible": 1, "window": info_QMessageBox}
 confirm_Remove_All_QMessageBox = {"type": "QMessageBox", "unnamed": 1, "visible": 1, "windowTitle": "Confirm Remove All"}
 confirm_Remove_All_Yes_QPushButton = {"text": "Yes", "type": "QPushButton", "unnamed": 1, "visible": 1, "window": confirm_Remove_All_QMessageBox}
+confirm_Remove_All_No_QPushButton = {"text": "No", "type": "QPushButton", "unnamed": 1, "visible": 1, "window": confirm_Remove_All_QMessageBox}
