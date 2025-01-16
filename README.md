@@ -87,6 +87,9 @@ If you simply want to run the application without delving into development detai
    - Navigate to the **/tests** directory and select the test suite file (e.g., `suite_Test.sui`).
 3. **Run Tests:** Click the **Run** button (the play icon) in the toolbar, or press **Ctrl+R**. This executes the automated test cases defined in the suite.
 
+### Testing Summary
+After each workflow run results file is uploaded to github artifacts and can be accessed by navigating to the workflow run on github. This summary contains detailed report for the application testing.
+
 ## Troubleshooting
 
 - **App cannot start error:** 
