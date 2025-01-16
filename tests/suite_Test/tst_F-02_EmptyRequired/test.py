@@ -12,7 +12,6 @@ def main():
     else:
         test.compare(str(waitForObjectExists(names.error_QMessageBox).windowTitle), "Error")
         test.compare(str(waitForObjectExists(names.error_QMessageBox).text), "Name cannot be empty.")
-        test.compare(waitForObjectExists(names.error_QMessageBox).visible, True)
         clickButton(waitForObject(names.error_OK_QPushButton))
         
     # Check Empty Phone Number

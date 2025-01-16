@@ -1,0 +1,41 @@
+name: Run Squish Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  squish-tests:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build App
+        run: |
+          cd ./src
+          qmake qtPhoneBook.pro
+          mingw32-make
+        shell: cmd
+
+      - name: Start Squish server
+        run: |
+          start /B "C:\Users\omare\Squish for Qt 8.1.0\bin\squishserver.exe"
+        shell: cmd
+      
+      - name: Run Squish tests
+        run: |
+          "C:\\Users\\omare\\Squish for Qt 8.1.0\\bin\\squishrunner.exe" --testsuite tests/suite_Test --reportgen xml,./results.xml
+        shell: cmd
+        
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v3
+        with:
+          name: squish-test-results
+          path: results.xml
+
+      - name: Run Check for failure
+        run: python .\checkResults.py

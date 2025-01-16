@@ -34,9 +34,9 @@ QString verifyName(QString& name){
 }
 
 QString verifyPhoneNo(QString& phone){
-    if(phone.isEmpty()){
-        return "Phone number cannot be empty.";
-    }
+    // if(phone.isEmpty()){
+    //     return "Phone number cannot be empty.";
+    // }
 
     if(phone.toInt() == 0){
         return "Incorrect phone number";
