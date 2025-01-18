@@ -23,9 +23,9 @@ MainWindow::~MainWindow()
 }
 
 QString verifyName(QString& name){
-    // if(name.isEmpty()){
-    //     return "Name cannot be empty.";
-    // }
+    if(name.isEmpty()){
+        return "Name cannot be empty.";
+    }
     if(name.length()>=30){
         return "Name field exceeds limit of 30 characters.";
     }
@@ -60,9 +60,9 @@ QString verifyEmail(QString& email){
         if(!match.hasMatch()){
             return "Incorrect email address";
         }
-        // if(email.length() > 50){
-        //     return "Email exceeds 50 characters limit";
-        // }
+        if(email.length() > 50){
+            return "Email exceeds 50 characters limit";
+        }
     }
 
     return QString();
