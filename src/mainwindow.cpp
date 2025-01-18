@@ -23,9 +23,9 @@ MainWindow::~MainWindow()
 }
 
 QString verifyName(QString& name){
-    // if(name.isEmpty()){
-    //     return "Name cannot be empty.";
-    // }
+    if(name.isEmpty()){
+        return "Name cannot be empty.";
+    }
     if(name.length()>=30){
         return "Name field exceeds limit of 30 characters.";
     }
@@ -80,9 +80,9 @@ QString checkIfExists(QString& name,QString& phone,QString& email, QTableWidget*
         if (existingPhone == phone) {
             return "Phone number already exists.";
         }
-        // if (existingEmail == email && !email.isEmpty()) {
-        //     return "Email address already exists.";
-        // }
+        if (existingEmail == email && !email.isEmpty()) {
+            return "Email address already exists.";
+        }
     }
 
     return "";
